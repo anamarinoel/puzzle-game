@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    color: firebrick;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+}
+
+#okvir {
+    width: 500px;
+    margin-top: 35px;
+}
+
+#okvir div {
+    outline: dashed white 2px;
+    width: 100px;
+    min-height: 66px;
+    float: right;
+}
+
+#okvir img {
+    width: 100px
+}
+
+#zavrsna {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
